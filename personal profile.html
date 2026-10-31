@@ -16,10 +16,17 @@
 
         /* Headings Styling */
         h1 {
-            color: #1a365d;
+            position: inherit;
+            top: 0;
+            z-index: 1000;
+            background-color: #94f0c2;
+            padding: 10px 20px;
+            border-radius: 30px;
+            color: #043453;
             text-align: center;
             font-size: 2.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
+            box-shadow: #17860f;
         
 
         }
@@ -29,17 +36,27 @@
             border-bottom: 2px solid #e2e8f0;
             padding-bottom: 5px;
             margin-top: 25px;
-            border: ;
+            border-radius: 30px;
+            box-shadow: #2b6cb0;
+            text-align: center;
+
         }
 
         /* Section Container Styling */
-        .container {
-            background-color: #48e7aa;
+        .container-a {
+            background-color: #32dd9c;
             max-width: 800px;
             margin: 0 auto;
             padding: 30px;
             border-radius: 50px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .container-b{
+             background-color: #eaf5ef;
+            border: 2px solid #bee3f8;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 30px;
         }
 
         /* Highlighted Contact Section with Border and Background */
@@ -75,14 +92,14 @@
 </head>
 <body>
 
-    <div class="container">
+    <div class="container-a">
         <!-- Main Heading -->
         <h1>SAMWEL JUMA BARASA </h1>
         <hr>
 
         <!-- Introduction Section -->
-        <p>Hello! I am a passionate junior web developer eager to build clean, functional, and user-friendly web applications. I love solving problems through code, continuously learning new technologies, and collaborating with teams to bring creative ideas to life on the digital canvas.</p>
-
+        <p>Hello! I am a passionate junior web developer eager to build clean, functional, and user-friendly web applications. I love solving problems through code, continuously learning new technologies.</p>
+        <p>with passion showing and directing my fellow coleagues the way is my duty a to </p>
         <!-- Education Section -->
         <h2>BACKGROUND EDUCATION </h2>
         <ul>
@@ -93,7 +110,7 @@
         </ul>
 <hr>
         <!-- Skills Section -->
-         <div class="Technical-section">
+        <!--<div class="Technical-section"> -->
 
          <h2>Technical Skills</h2>
         
@@ -102,7 +119,7 @@
             <li>production management </li>
             <li>windows instalation</li>
         </ul>
-        </div>
+      <!---- </div> -->
         <!-- Hobbies Section -->
         <h2>my Hobbies & Interests</h2>
         <ul>
@@ -110,10 +127,24 @@
             <li>swiming </li>
             <li>Hiking and exploring nature trails</li>
         </ul>
+    
+        <!--power section-->
+        <div class="container-b">
+         <dl>
+             <h2>power of knowledge and technicality </h2>
+            <dt>power</dt>
+                <dd>the ability or capacity to do something or act in a particular way.<br>this is something great to have in life</dd>
+            <dt>knowledge</dt>
+                <dd>facts, information, and skills acquired through experience or education; the theoretical or practical understanding of a subject<br>anything learnt</dd>
+            <dt>technical</dt>
+                <dd>relating to a particular subject, art, or craft, or its techniques<br>ability to apply your skills </dd>
 
+            </dl>
+
+        </div>
         <!-- Contact Section -->
         <div class="contact-section">
-            <h2>Contact me </h2>
+            <h3>Contact me </h3>
             <p>If you would like to collaborate or just say hi, feel free to reach out via email:</p>
             <p>Email: <a href="mailto:jumasamwel656@example.com">samweljuma656@example.com</a></p>
             <p>thanks for reaching out </p>
